@@ -46,14 +46,14 @@ borrowRoutes.get("/", (req, res) => __awaiter(void 0, void 0, void 0, function* 
         res.status(200).json({
             success: true,
             message: "Borrowed books summary retrieved successfully",
-            data: summary
+            data: summary,
         });
     }
     catch (error) {
         res.status(500).json({
             success: false,
             message: "Failed to fetch borrowed summary",
-            error: error.message
+            error: error.message,
         });
     }
 }));
