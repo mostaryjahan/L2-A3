@@ -11,10 +11,10 @@ async function main() {
 
     server = app.listen(config.port, () => {
     
-      console.log(`Server is listening to PORT: ${config.port}`);
+      console.log(`Server is listening to PORT: http://localhost:${config.port}`);
     });
   } catch (err) {
-    console.log(err);
+    console.log("DB connection error",err);
   }
 }
 
