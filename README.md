@@ -56,7 +56,6 @@ A RESTful API for managing a library system built with **Express**, **TypeScript
 
 - Node.js (v16+ recommended)
 - MongoDB (Atlas or local)
-- Mongoose
 - npm or yarn
 
 ### Steps
@@ -79,7 +78,7 @@ A RESTful API for managing a library system built with **Express**, **TypeScript
 3. Create a `.env` file in the root with the following variables:
 
    ```env
-   PORT=http://localhost:5000
+   PORT=5000
    MONGO_URL=your_mongodb_connection_string
    ```
 
