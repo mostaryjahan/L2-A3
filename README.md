@@ -3,7 +3,7 @@
 
 A RESTful API for managing a library system built with **Express**, **TypeScript**, and **MongoDB** using **Mongoose**. This project includes features like book management, borrowing system with availability control, aggregation summaries, and validation.
 
----
+<!-- --- -->
 
 ## Features
 
@@ -118,11 +118,11 @@ Content-Type: application/json
 * **Node.js** with **Express** — Server and routing
 * **TypeScript** — Type safety and modern JavaScript features
 * **MongoDB** with **Mongoose** — Database and ORM
-* **ESLint** & **Prettier** — Code quality and formatting tools
 
----
 
-## Project Structure
+<!-- --- -->
+
+<!-- ## Project Structure
 
 ```
 ├── src
@@ -140,7 +140,7 @@ Content-Type: application/json
 
 ```
 
----
+--- -->
 
 ## Error Handling
 
