@@ -5,7 +5,9 @@ import cors from "cors";
 
 const app: Application = express();
 
-app.use(cors());
+app.use(cors({
+  origin:["https://l2-a4-client.vercel.app", "http://localhost:5173"]
+}));
 
 app.use(express.json());
 
