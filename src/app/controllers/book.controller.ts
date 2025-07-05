@@ -38,9 +38,10 @@ bookRoutes.get("/", async (req: Request, res: Response) => {
       sortOptions.createdAt = sort === "asc" ? 1 : -1;
     }
 
-    const resultLimits = parseInt(limit as string) || 10;
+    // const resultLimits = parseInt(limit as string) || 10;
 
-    const data = await Book.find(query).sort(sortOptions).limit(resultLimits);
+    // const data = await Book.find(query).sort(sortOptions).limit(resultLimits);
+    const data = await Book.find(query).sort(sortOptions);
 
     res.status(200).json({
       success: true,
